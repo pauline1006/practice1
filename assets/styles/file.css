@@ -1,0 +1,26 @@
+.container {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+  border: 2px, solid;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+}
+.header {
+  grid-area: header;
+  border: 2px, solid;
+  box-sizing: border-box;
+}
+.main {
+  grid-area: main;
+  border: 2px, solid;
+  box-sizing: border-box;
+}
+.footer {
+  grid-area: footer;
+  border: 2px, solid;
+  box-sizing: border-box;
+border-color: aquamarine;}
