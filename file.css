@@ -128,32 +128,33 @@
   /* identical to box height */
   color: #c1c1c1;
 }
-.container-cards {
-  display: grid;
-  grid-template-rows: 250px;
-  grid-template-columns: repeat(4, 250px);
-  grid-template-areas: "cards-1__image cards-2__image cards-3__image cards-4__image";
-  border: 1px solid #000000;
-  box-sizing: border-box;
-  background-color: #f5f5f5;
-}
-.cards-1__image {
-  grid-area: cards-1__image;
+.container-cards{display: grid;
+  grid-template-areas: "cards-1 cards-2 cards-3 cards-4 cards-5"
+  "cards-6 cards-7 cards-8 cards-9 cards-10"
+  "cards-11 cards-12 cards-13 cards-14 cards-15"
+  "cards-16 cards-17 cards-18 cards-19 cards-20";
+  grid-template-columns: repeat(5, fr);
+  grid-template-rows: repeat(4, fr);
   border: 1px solid #000000;
   box-sizing: border-box;
 }
-.cards-2__image {
-  grid-area: cards-2__image;
-  border: 1px solid #000000;
-  box-sizing: border-box;
-}
-.cards-3__image {
-  grid-area: cards-3__image;
-  border: 1px solid #000000;
-  box-sizing: border-box;
-}
-.cards-4__image {
-  grid-area: cards-4__image;
-  border: 1px solid #000000;
-  box-sizing: border-box;
-}
+.cards-1{grid-area: cards-1;}
+.cards-2{grid-area: cards-2;}
+.cards-3{grid-area: cards-3;}
+.cards-4{grid-area: cards-4;}
+.cards-5{grid-area: cards-5;}
+.cards-6{grid-area: cards-6;}
+.cards-7{grid-area: cards-7;}
+.cards-8{grid-area: cards-8;}
+.cards-9{grid-area: cards-9;}
+.cards-10{grid-area: cards-10;}
+.cards-11{grid-area: cards-11;}
+.cards-12{grid-area: cards-12;}
+.cards-13{grid-area: cards-13;}
+.cards-14{grid-area: cards-14;}
+.cards-15{grid-area: cards-15;}
+.cards-16{grid-area: cards-16;}
+.cards-17{grid-area: cards-17;}
+.cards-18{grid-area: cards-18;}
+.cards-19{grid-area: cards-19;}
+.cards-20{grid-area: cards-20;}
