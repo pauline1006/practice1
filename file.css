@@ -131,11 +131,8 @@
 .container-cards {
   display: grid;
   grid-template-rows: 250px;
-  grid-template-columns: repeat(5, 250px);
-  grid-template-areas:
-    "cards-1__image"
-    "cards-1__title"
-    "cards-1__text";
+  grid-template-columns: repeat(4, 250px);
+  grid-template-areas: "cards-1__image cards-2__image cards-3__image cards-4__image";
   border: 1px solid #000000;
   box-sizing: border-box;
   background-color: #f5f5f5;
@@ -145,13 +142,18 @@
   border: 1px solid #000000;
   box-sizing: border-box;
 }
-.cards-1__title {
-  grid-area: cards-1__title;
+.cards-2__image {
+  grid-area: cards-2__image;
   border: 1px solid #000000;
   box-sizing: border-box;
 }
-.cards-1__text {
-  grid-area: cards-1__text;
+.cards-3__image {
+  grid-area: cards-3__image;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+.cards-4__image {
+  grid-area: cards-4__image;
   border: 1px solid #000000;
   box-sizing: border-box;
 }
